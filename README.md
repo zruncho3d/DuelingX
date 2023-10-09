@@ -49,9 +49,9 @@ Like what you see?  [Buy me a coffee](https://ko-fi.com/zruncho3d) to show the l
 
 Tons of content: a CAD file, plus documentation to make the most of it.
 
-- #### [Stock Sizes](#standardconfigurations): Choose your favorite stock size!
+- #### [Stock Sizes](#standard-configurations): Choose your favorite stock size!
 - #### [Custom Builds](CUSTOM.md): Customize to fit your choice of parts!
-- #### [FAQ](#samplebuilds): Common questions
+- #### [FAQ](FAQ.md): Common questions
 - #### [BOM](BOM.md): Parts for stock sizes
 - #### [Bugs](BUGS.md): Known issues and areas that may change
 - #### [Changelog](CHANGELOG.md), [Credits](#credits) and [Support](#support)
@@ -212,7 +212,6 @@ All this descends from the Dueling Zero project... seriously, [go there](https:/
 * Heavy credit goes to Desune for the parallel design for [Dueling Boops](https://github.com/desune2487/Dueling_Boops), which influenced many choices.
 * The gantry design was heavily influenced by the Pandora / [Pandora's Box](https://github.com/MasturMynd/Pandoras_Box) gantry (MasturMynd); the [Trident Maximus](https://github.com/MasturMynd/Trident-Maximus) build was selected by community vote to the Type 2.
 * The CAD uses parts from the Construct, as well as the [Micron](https://github.com/printersForAnts/micron) CAD (hark).
-* Toolhead parts from respective projects
 
 ### Community
 
