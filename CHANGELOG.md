@@ -1,6 +1,12 @@
 ### Changelog / Updates
 
-
+* 2023-10-09; v76
+    * Finish test piece to ensure unknown values are reasonable.  Has extrusion tab slots in 3 orientation, holes that match the ab extrusion spacing, clearance holes, formed thread holes, and bearing screw clearance holes.
+    * Fix under-constraint error for X location of AB lower/upper locking tabs
+    * Add instructions for testing the test part
+    * Finish all documentation and edit for clarity and conciseness (I know, I know…)
+    * Document relationship between Dueling Zero and Dueling X
+    * Push to GitHub as private and wait to flip the bit to make this thing public!!!
 * 2023-10-08; v74
     * Type 2: Tweak params to get 10mm-aligned AB extrusion length (ab_extrusion_width_computed)
     * Add motor_spacer_opening_r to easily enable the motor plate to fit a bearing
