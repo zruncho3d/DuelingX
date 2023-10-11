@@ -1,5 +1,16 @@
 ### Changelog / Updates
 
+
+* 2023-10-11: v80
+    * Add Type3, which is Type1 + MGN9 Inner, per request.  This is a pretty reasonable choice to use Boop or Micron carriages on a larger printer; saves weight and adds 6mm of DX-style X travel (normally Y travel).
+      * ab_joint_elbow_fillet_r_derived: min(ab_motor_dist_to_extrusion + extrusion_width - xy_joint_outer_width - const_fillet_r_medium; ab_joint_shoulder_depth - const_fillet_r_medium)
+      * ab_joint_elbow_fillet_r = ab_joint_elbow_fillet_r_derived
+      * In ‘AB inner elbow fillet’ feature, change to use fillet_r
+      * inner_carriage_type → 9
+      * ab_joint_shoulder_depth → 12mm
+      * xy_joint_carriage_offset_from_moving_extrusion → 3.4mm
+    * Add moving_extrusion_overlap, which adds an override to extend the XY joints farther inward, and adjusted sketches to use it
+    * Minor doc and attribution fixes
 * 2023-10-09; v76
     * Finish test piece to ensure unknown values are reasonable.  Has extrusion tab slots in 3 orientation, holes that match the ab extrusion spacing, clearance holes, formed thread holes, and bearing screw clearance holes.
     * Fix under-constraint error for X location of AB lower/upper locking tabs
