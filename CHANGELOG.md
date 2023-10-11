@@ -2,7 +2,7 @@
 
 
 * 2023-10-11: v80
-    * Add Type3, which is Type1 + MGN9 Inner, per request.  This is a pretty reasonable choice to use Boop or Micron carriages on a larger printer; saves weight and adds 6mm of DX-style X travel (normally Y travel).
+    * Add Type3, which is Type1 + MGN9 Inner, per request.  This is a pretty reasonable choice to use Boop or Micron carriages on a larger printer; saves weight.
       * ab_joint_elbow_fillet_r_derived: min(ab_motor_dist_to_extrusion + extrusion_width - xy_joint_outer_width - const_fillet_r_medium; ab_joint_shoulder_depth - const_fillet_r_medium)
       * ab_joint_elbow_fillet_r = ab_joint_elbow_fillet_r_derived
       * In ‘AB inner elbow fillet’ feature, change to use fillet_r
